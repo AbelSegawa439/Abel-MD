@@ -1,0 +1,45 @@
+{
+  "name": "Abel-MD",
+  "description": "Clean multi-device WhatsApp bot built with Baileys by AbelSegawa439",
+  "logo": "https://i.imgur.com/8Km9tLL.png",
+  "keywords": ["whatsapp", "bot", "baileys", "abel-md"],
+  "repository": "https://github.com/AbelSegawa439/Abel-MD",
+  "success_url": "/",
+  "stack": "heroku-24",
+  "env": {
+    "OWNER_NUMBER": {
+      "description": "Your WhatsApp number without + (e.g. 256747287538)",
+      "value": "256747287538",
+      "required": true
+    },
+    "OWNER_NAME": {
+      "description": "Owner display name",
+      "value": "Abel",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Bot name",
+      "value": "Abel-MD",
+      "required": false
+    },
+    "PREFIX": {
+      "description": "Command prefix",
+      "value": ".",
+      "required": false
+    },
+    "CAPTION": {
+      "description": "Footer caption",
+      "value": "© Abel-MD • Powered by AbelSegawa439",
+      "required": false
+    },
+    "PORT": {
+      "description": "Port (usually auto-set by host)",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }
+  ]
+}
