@@ -1,0 +1,37 @@
+{
+  "name": "abel-md",
+  "version": "1.0.0",
+  "description": "Abel-MD - Clean & powerful WhatsApp Multi-Device Bot by AbelSegawa439",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "whatsapp-bot",
+    "baileys",
+    "abel-md",
+    "multi-device"
+  ],
+  "author": "AbelSegawa439",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "moment-timezone": "^0.5.45",
+    "node-cache": "^5.1.2",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
