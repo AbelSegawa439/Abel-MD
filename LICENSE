@@ -1,21 +1,12 @@
-MIT License
+---
 
-Copyright (c) 2026 AbelSegawa439
+### How to put everything on GitHub
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+1. Create repo → `Abel-MD`
+2. Click **Add file → Create new file**
+3. Create each file one by one (for folders type `lib/client.js`, `plugins/main.js`, `public/index.html` etc.)
+4. Or upload a zip of the whole folder
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+After all files are uploaded, go to any host (Railway / Render / Koyeb) and deploy from the repo.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Tell me when the repo is live and I will help you add more commands (sticker, download, group management, etc.).
